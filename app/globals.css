@@ -215,3 +215,22 @@ input[type="search"]::-webkit-search-cancel-button:hover {
   opacity: 0;
   transition: transform 0.35s ease, opacity 0.35s ease;
 }
+.boton-elegante {
+  @apply  px-6 py-2 text-base font-semibold tracking-wide transition-all duration-300 hover:bg-gray-200 rounded-xl;
+
+  @screen sm {
+    @apply text-lg px-8 py-3;
+  }
+
+  @screen md {
+    @apply text-xl;
+  }
+
+  @screen lg {
+    @apply text-2xl px-10 py-4;
+  }
+
+  @screen xl {
+    @apply text-3xl;
+  }
+}
