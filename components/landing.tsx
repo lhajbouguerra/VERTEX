@@ -31,8 +31,6 @@ export default function Landing() {
       />
 
       <main className="relative z-20 flex-1 flex flex-col items-center justify-center px-6 text-center">
-
-
         <motion.div
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -63,7 +61,7 @@ export default function Landing() {
           {/* PORTFOLIO */}
           <div className="overflow-hidden">
             <h1
-              className="text-white instrument-sans font-bold text-[4.5rem] sm:text-[6rem] md:text-[7rem] lg:text-[8rem] xl:text-[10rem] uppercase tracking-[-0.03em] leading-[1] mt-[-0.5rem]"
+              className="text-white instrument-sans font-bold text-[4.5rem] sm:text-[6rem] md:text-[7rem] lg:text-[8rem] xl:text-[10rem] uppercase tracking-[-0.03em] leading-[1]"
               data-aos="slide-up"
               data-aos-duration="800"
               data-aos-delay="200"
