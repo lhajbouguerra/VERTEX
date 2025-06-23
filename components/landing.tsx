@@ -5,7 +5,7 @@ import "./fonts.css";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { useEffect } from "react";
-
+import axios from "axios";
 export default function Landing() {
   useEffect(() => {
     AOS.init({
@@ -14,7 +14,11 @@ export default function Landing() {
       easing: "ease-out-cubic",
     });
   }, []);
-
+  const fetchtest = async() => {
+    const req = await axios.get("https://backend-1-tttp.onrender.com/test")
+    console.log(req.data)
+  }
+  fetchtest()
   return (
     <div
       className="bg-black h-screen text-white font-sans flex flex-col overflow-hidden relative"

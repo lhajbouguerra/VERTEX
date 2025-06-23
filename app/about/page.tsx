@@ -109,7 +109,7 @@ export default function AboutPage() {
                 learned backend development with Node.js and Python — all
                 through the internet.
               </p>
-              <p className="text-lg text-gray-300 leading-relaxed">
+              <div className="text-lg text-gray-300 leading-relaxed">
                 Today, I specialize in developing full-stack applications,
                 landing pages, AI tools, and REST APIs. I work with:
                 <div className="ml-4 mt-1.5">
@@ -121,7 +121,7 @@ export default function AboutPage() {
                   features</li>
                   <li><strong>MySQL & SQLite</strong> for relational databases</li>
                 </div>
-              </p>
+              </div>
             </div>
           </div>
         </div>
