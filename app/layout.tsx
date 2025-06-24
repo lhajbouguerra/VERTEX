@@ -24,8 +24,8 @@ export default function RootLayout({
       <body
         className={`antialiased`}
       >
-       <LenisWrapper>
         
+       <LenisWrapper>
           {children}
         </LenisWrapper>
       </body>

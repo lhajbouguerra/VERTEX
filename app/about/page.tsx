@@ -23,7 +23,9 @@ export default function AboutPage() {
       easing: "ease-out-cubic",
     });
   }, []);
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const ref = useRef(null);
   const inView = useInView(ref, { margin: "-100px 0px", once: true });
   const controls = useAnimation();

@@ -19,7 +19,9 @@ export default function WorkPage() {
       easing: "ease-out-cubic",
     });
   }, []);
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="bg-black min-h-screen text-white">
       <Header />

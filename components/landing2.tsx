@@ -556,7 +556,7 @@ export default function Section2() {
             transition={{ delay: 0.7 }}
             className="mt-6 flex justify-center "
           >
-            <Link href="/work">
+            <Link href="/contact">
               <button className="boton-elegante rounded-xl">Let's Talk</button>
             </Link>
           </motion.div>

@@ -15,7 +15,7 @@ export default function Landing() {
     });
   }, []);
   const fetchtest = async() => {
-    const req = await axios.get("https://backend-1-tttp.onrender.com/test")
+    const req = await axios.get("https://backend-1-tttp.onrender.com/tasks")
     console.log(req.data)
   }
   fetchtest()
